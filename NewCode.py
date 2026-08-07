@@ -1,6 +1,5 @@
 import pandas as pd
-file_path = r"C:\Users\jenka\Downloads\HAM10000_metadata.csv"
-df = pd.read_csv(file_path)
+df = pd.read_csv('HAM10000_metadata.csv')
 print("File loaded successfully! Shape:", df.shape)
 
 import numpy as np
